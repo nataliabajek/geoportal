@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Tunel schronowy", "address": "Tunelowa, 38-100 Strzyżów", "phoneNumbe": "889 839 031", "snippet": "Tunelowa, 38-100 Strzyżów", "x": 21.808720, "y": 49.869259 }, "geometry": { "type": "Point", "coordinates": [ 21.8087197, 49.8692592 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Schron kolejowy", "address": "Stępina, 38-125 Stępina", "phoneNumbe": null, "snippet": "Stępina, 38-125 Stępina", "x": 21.591632, "y": 49.871596 }, "geometry": { "type": "Point", "coordinates": [ 21.5916317, 49.8715963 ] } }
+]
+}

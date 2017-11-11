@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Pałac Biesa", "address": "Mała pętla bieszczadzka, 38-722 Olszanica", "phoneNumbe": "13 461 74 50", "snippet": "Mała pętla bieszczadzka, 38-722 Olszanica", "x": 22.448105, "y": 49.475651 }, "geometry": { "type": "Point", "coordinates": [ 22.4481048, 49.4756515 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Zamek Kamieniec", "address": "Podzamcze 38, 38-420 Korczyna", "phoneNumbe": "788 837 412", "snippet": "Podzamcze 38, 38-420 Korczyna", "x": 21.786661, "y": 49.742613 }, "geometry": { "type": "Point", "coordinates": [ 21.786661, 49.742613 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Zamek Królewski", "address": "Zamkowa 2, Sanok", "phoneNumbe": "13 463 06 09", "snippet": "Zamkowa 2, Sanok", "x": 22.209245, "y": 49.562191 }, "geometry": { "type": "Point", "coordinates": [ 22.209245, 49.562191 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "Zamek w Łańcucie", "address": "Zamkowa 1, 37-100 Łańcut", "phoneNumbe": "17 225 20 08", "snippet": "Zamkowa 1, 37-100 Łańcut", "x": 22.234590, "y": 50.068670 }, "geometry": { "type": "Point", "coordinates": [ 22.2345896, 50.0686697 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "name": "Pałac Lubomirskich", "address": "Książąt Lubomirskich 6, 37-700 Przemyśl", "phoneNumbe": null, "snippet": "Książąt Lubomirskich 6, 37-700 Przemyśl", "x": 22.793428, "y": 49.774192 }, "geometry": { "type": "Point", "coordinates": [ 22.7934284, 49.7741922 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "name": "Zamek Przecław", "address": "Podzamcze 8, 39-320 Przecław", "phoneNumbe": "17 774 70 64", "snippet": "Podzamcze 8, 39-320 Przecław", "x": 21.479665, "y": 50.191702 }, "geometry": { "type": "Point", "coordinates": [ 21.4796649, 50.1917023 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "name": "Zamek w Krasiczynie", "address": "Krasiczyn 179, 37-741 Krasiczyn", "phoneNumbe": "16 671 83 21", "snippet": "Krasiczyn 179, 37-741 Krasiczyn", "x": 22.649818, "y": 49.776269 }, "geometry": { "type": "Point", "coordinates": [ 22.6498175, 49.776269 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "name": "Pałac Wodzickich", "address": "Grunwaldzkа, Tyczyn", "phoneNumbe": "17 221 93 10", "snippet": "Grunwaldzkа, Tyczyn", "x": 22.024997, "y": 49.964658 }, "geometry": { "type": "Point", "coordinates": [ 22.0249972, 49.9646581 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "name": "Zamek w Baranowie Sandomierskim", "address": "Zamkowa 22, 39-450 Baranów Sandomierski", "phoneNumbe": "15 811 80 39", "snippet": "Zamkowa 22, 39-450 Baranów Sandomierski", "x": 21.534826, "y": 50.501796 }, "geometry": { "type": "Point", "coordinates": [ 21.5348264, 50.501796 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "name": "Pałac Sieniawa", "address": "Tadeusza Kościuszki 32, 37-530 Sieniawa", "phoneNumbe": "16 649 17 00", "snippet": "Tadeusza Kościuszki 32, 37-530 Sieniawa", "x": 22.608699, "y": 50.171466 }, "geometry": { "type": "Point", "coordinates": [ 22.6086989, 50.1714663 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 11, "name": "Zamek Tarnowskich", "address": "Sandomierska 27, Tarnobrzeg", "phoneNumbe": "15 823 79 99", "snippet": "Sandomierska 27, Tarnobrzeg", "x": 21.676724, "y": 50.579523 }, "geometry": { "type": "Point", "coordinates": [ 21.6767239, 50.5795227 ] } }
+]
+}

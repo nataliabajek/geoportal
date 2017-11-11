@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Cerkiew Wniebowstąpienia Pańskiego", "address": "36-204 Ulucz", "snippet": "36-204 Ulucz", "x": 22.278078, "phoneNumbe": null, "y": 49.675656 }, "geometry": { "type": "Point", "coordinates": [ 22.2780784, 49.6756559 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Klasztor Benedyktynek", "address": "3 Maja 8, Przemyśl", "snippet": "3 Maja 8, Przemyśl", "x": 22.767086, "phoneNumbe": null, "y": 49.785778 }, "geometry": { "type": "Point", "coordinates": [ 22.7670862, 49.7857779 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Klasztor Karmelitów Bosych w Przemyślu", "address": "Karmelicka 1, Przemyśl", "snippet": "Karmelicka 1, Przemyśl", "x": 22.771988, "phoneNumbe": "16 678 60 14", "y": 49.780173 }, "geometry": { "type": "Point", "coordinates": [ 22.771988, 49.780173 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "Kościół pw. Wniebowzięcia NMP", "address": "Haczów 605, 36-213 Haczów", "snippet": "Haczów 605, 36-213 Haczów", "x": 21.889325, "phoneNumbe": "13 439 10 12", "y": 49.670291 }, "geometry": { "type": "Point", "coordinates": [ 21.8893254, 49.6702908 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "name": "Drewniany Kościół w Bliznem", "address": "DW886, Blizne", "snippet": "DW886, Blizne", "x": 21.976374, "phoneNumbe": null, "y": 49.750683 }, "geometry": { "type": "Point", "coordinates": [ 21.9763738, 49.7506825 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "name": "Klasztor Franciszkanów Konwentualnych", "address": "Franciszkańska 5, 38-400 Krosno", "snippet": "Franciszkańska 5, 38-400 Krosno", "x": 21.766855, "phoneNumbe": "13 436 80 88", "y": 49.693266 }, "geometry": { "type": "Point", "coordinates": [ 21.7668553, 49.6932664 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "name": "Klasztor Sióstr Nazaretanek", "address": "38-543 Komańcza", "snippet": "38-543 Komańcza", "x": 22.074443, "phoneNumbe": null, "y": 49.349443 }, "geometry": { "type": "Point", "coordinates": [ 22.0744426, 49.3494434 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "name": "Sanktuarium i Klasztor O.O. Bernardynów w Leżajsku", "address": "plac Mariacki 8, 37-300 Leżajsk", "snippet": "plac Mariacki 8, 37-300 Leżajsk", "x": 22.409804, "phoneNumbe": "17 242 00 06", "y": 50.270256 }, "geometry": { "type": "Point", "coordinates": [ 22.4098041, 50.2702556 ] } }
+]
+}

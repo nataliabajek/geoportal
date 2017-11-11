@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Exitmania Escape Room Rzeszów", "address": "Księcia Józefa Poniatowskiego 15, 35-026 Rzeszów", "phoneNumbe": "575 639 487", "snippet": "Księcia Józefa Poniatowskiego 15, 35-026 Rzeszów", "x": 21.994586, "y": 50.034602 }, "geometry": { "type": "Point", "coordinates": [ 21.994586, 50.0346023 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "AlcaTraps", "address": "Juliusza Słowackiego 7A, (dziedziniec za Krus, podziemie), 35-060 Rzeszów", "phoneNumbe": "570 725 199", "snippet": "Juliusza Słowackiego 7A, (dziedziniec za Krus, podziemie), 35-060 Rzeszów", "x": 22.003601, "y": 50.035768 }, "geometry": { "type": "Point", "coordinates": [ 22.003601, 50.035768 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Share Lock", "address": "aleja Józefa Piłsudskiego 15, 35-065 Rzeszów", "phoneNumbe": "510 655 432", "snippet": "aleja Józefa Piłsudskiego 15, 35-065 Rzeszów", "x": 22.012214, "y": 50.039088 }, "geometry": { "type": "Point", "coordinates": [ 22.0122135, 50.0390884 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "WydostanSie Escape Rooms Rzeszów\/Krosno", "address": "plac, plac Wolności 2, Rzeszów", "phoneNumbe": "663 764 893", "snippet": "plac, plac Wolności 2, Rzeszów", "x": 22.008038, "y": 50.039082 }, "geometry": { "type": "Point", "coordinates": [ 22.008038, 50.039082 ] } }
+]
+}

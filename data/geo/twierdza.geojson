@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Muzeum Twierdzy Przemyśl", "address": "Katedralna 6, 37-700 Przemyśl", "phoneNumbe": "796 700 088", "snippet": "Katedralna 6, 37-700 Przemyśl", "x": 22.769911, "y": 49.781278 }, "geometry": { "type": "Point", "coordinates": [ 22.7699111, 49.7812784 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Twierdza Przemyśl Fort XII WERNER", "address": "Forteczna 20, Żurawica", "phoneNumbe": "668 227 760", "snippet": "Forteczna 20, Żurawica", "x": 22.814412, "y": 49.833395 }, "geometry": { "type": "Point", "coordinates": [ 22.814412, 49.8333951 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Twierdza Przemyśl - Fort V Grochowce", "address": "37-733 Grochowce", "phoneNumbe": null, "snippet": "37-733 Grochowce", "x": 22.760925, "y": 49.736028 }, "geometry": { "type": "Point", "coordinates": [ 22.7609253, 49.7360284 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "Twierdza Przemyśl - Fort VII ½", "address": "37-700 Przemyśl", "phoneNumbe": "606 248 205", "snippet": "37-700 Przemyśl", "x": 22.707156, "y": 49.792683 }, "geometry": { "type": "Point", "coordinates": [ 22.7071557, 49.7926833 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "name": "Twierdza Przemyśl - Fort XIII \"San Rideau\"", "address": "37-722 Bolestraszyce", "phoneNumbe": null, "snippet": "37-722 Bolestraszyce", "x": 22.861323, "y": 49.821688 }, "geometry": { "type": "Point", "coordinates": [ 22.861322599999902, 49.8216876 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "name": "Twierdza Przemyśl - Fort VIII \"Łętownia\"", "address": null, "phoneNumbe": null, "snippet": null, "x": 22.712500, "y": 49.810501 }, "geometry": { "type": "Point", "coordinates": [ 22.7124998, 49.810501 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "name": "Twierdza Przemyśl - Fort XV \"Borek\"", "address": null, "phoneNumbe": null, "snippet": null, "x": 22.899833, "y": 49.771581 }, "geometry": { "type": "Point", "coordinates": [ 22.8998326, 49.7715806 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "name": "Twierdza Przemyśl - Fort III Łuczyce", "address": "Łuczyce", "phoneNumbe": null, "snippet": "Łuczyce", "x": 22.831758, "y": 49.745410 }, "geometry": { "type": "Point", "coordinates": [ 22.8317577, 49.7454099 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "name": "Twierdza Przemyśl Fort II Jaksmanice", "address": "Jaskmanice, Przemyśl", "phoneNumbe": null, "snippet": "Jaskmanice, Przemyśl", "x": 22.867441, "y": 49.744034 }, "geometry": { "type": "Point", "coordinates": [ 22.8674412, 49.744034199999902 ] } }
+]
+}

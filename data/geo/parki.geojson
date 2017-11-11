@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Leśny zwierzyniec w Lisznej", "address": "Liszna 9, 38-607 Liszna", "phoneNumbe": "503 539 192", "snippet": "Liszna 9, 38-607 Liszna", "x": 22.311924, "y": 49.188008 }, "geometry": { "type": "Point", "coordinates": [ 22.3119236, 49.188007699999901 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Park Miniatur Świątyń", "address": "38-623 Myczkowce", "phoneNumbe": "13 461 83 70", "snippet": "38-623 Myczkowce", "x": 22.397205, "y": 49.446137 }, "geometry": { "type": "Point", "coordinates": [ 22.3972047, 49.446136599999903 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Park zamkowy", "address": "Krasiczyn Castle, 37-741 Krasiczyn", "phoneNumbe": "16 671 83 21", "snippet": "Krasiczyn Castle, 37-741 Krasiczyn", "x": 22.649445, "y": 49.775556 }, "geometry": { "type": "Point", "coordinates": [ 22.6494445, 49.7755556 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "Arboretum Bolestraszyce", "address": "37-722 Bolestraszyce", "phoneNumbe": "16 671 64 25", "snippet": "37-722 Bolestraszyce", "x": 22.860384, "y": 49.817447 }, "geometry": { "type": "Point", "coordinates": [ 22.8603836, 49.8174471 ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Park Radawa", "address": "37-522 Radawa", "phoneNumbe": "512 391 888", "snippet": "37-522 Radawa", "x": 22.762532, "y": 50.135410 }, "geometry": { "type": "Point", "coordinates": [ 22.762532, 50.135410099999902 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Linoskoczek", "address": "Rodzinna 1257\/9 obręb 224, 35-304 Rzeszów", "phoneNumbe": "603 703 081", "snippet": "Rodzinna 1257\/9 obręb 224, 35-304 Rzeszów", "x": 22.029068, "y": 49.989545 }, "geometry": { "type": "Point", "coordinates": [ 22.029068, 49.989545 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Linowy Park Przygody", "address": "ul. Okrzei, 38-400 Krosno", "phoneNumbe": "790 779 205", "snippet": "ul. Okrzei, 38-400 Krosno", "x": 21.764613, "y": 49.700371 }, "geometry": { "type": "Point", "coordinates": [ 21.764613, 49.700371 ] } }
+]
+}

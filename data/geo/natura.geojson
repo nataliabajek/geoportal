@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Rezerwat Prządki", "address": "DW991, 38-420", "snippet": "DW991, 38-420", "x": 21.806770, "y": 49.742872 }, "geometry": { "type": "Point", "coordinates": [ 21.8067699, 49.742872 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Rezerwat Zabłocie", "address": "Bratkowice, Kolbuszowa", "snippet": "Bratkowice, Kolbuszowa", "x": 21.830252, "y": 50.154802 }, "geometry": { "type": "Point", "coordinates": [ 21.830252, 50.1548024 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Rezerwat Bagno Przecławskie", "address": "39-320 Przecław", "snippet": "39-320 Przecław", "x": 21.422370, "y": 50.187644 }, "geometry": { "type": "Point", "coordinates": [ 21.4223697, 50.1876442 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "name": "Punkt Widokowy", "address": "DW896, 38-713 Lutowiska", "snippet": "DW896, 38-713 Lutowiska", "x": 22.685394, "y": 49.264868 }, "geometry": { "type": "Point", "coordinates": [ 22.6853943, 49.2648676 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "name": "Wodospad Szepit na potoku Hylaty", "address": "Zatwarnica", "snippet": "Zatwarnica", "x": 22.554865, "y": 49.209893 }, "geometry": { "type": "Point", "coordinates": [ 22.5548653, 49.2098932 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "name": "Połonina Wetlińska", "address": "Połonina Wetlińska", "snippet": "Połonina Wetlińska", "x": 22.526908, "y": 49.166212 }, "geometry": { "type": "Point", "coordinates": [ 22.5269081, 49.1662122 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "name": "Tarnica", "address": "Tarnica", "snippet": "Tarnica", "x": 22.726250, "y": 49.074555 }, "geometry": { "type": "Point", "coordinates": [ 22.7262497, 49.0745547 ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "name": "Uzdrowisko Rymanów S.A.", "visibility": 0.000000, "address": "Zdrojowa 48, 38-481 Rymanów-Zdrój", "phoneNumbe": "13 435 74 01", "snippet": "Zdrojowa 48, 38-481 Rymanów-Zdrój", "x": 21.851034, "y": 49.549586 }, "geometry": { "type": "Point", "coordinates": [ 21.8510342, 49.5495858 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "name": "Uzdrowisko Horyniec Sp. z o.o.", "visibility": 0.000000, "address": "Sanatoryjna 3, 37-620 Horyniec-Zdrój", "phoneNumbe": "16 631 30 88", "snippet": "Sanatoryjna 3, 37-620 Horyniec-Zdrój", "x": 23.354378, "y": 50.198513 }, "geometry": { "type": "Point", "coordinates": [ 23.3543778, 50.1985133 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "name": "Uzdrowisko Iwonicz S.A.", "visibility": 0.000000, "address": "Al Torosiewicza 2, 38-440 Iwonicz-Zdrój", "phoneNumbe": "13 430 87 80", "snippet": "Al Torosiewicza 2, 38-440 Iwonicz-Zdrój", "x": 21.788889, "y": 49.561503 }, "geometry": { "type": "Point", "coordinates": [ 21.7888887, 49.561503199999898 ] } }
+]
+}

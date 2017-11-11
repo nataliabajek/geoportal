@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+		<meta charset="UTF-8">
+		<title>Geoportal turystyczny</title>
+
+		<link rel="stylesheet" href="ol3/ol3-layerswitcher.css">
+	  <link rel="stylesheet" href="ol3/ol3-geocoder.min.css" >
+	  <link rel="stylesheet" href="ol3/ol3-geocoder.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Francois+One|Lato:400,700|Lustria&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Athiti:400,500|Inconsolata|Josefin+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+	  <link rel="stylesheet" href="ol3/ol3.css">
+		<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+		<div id="header" class="header">
+						Geoportal turystyczny województwa podkarpackiego
+		</div>
+		<div id="toolbar" class="toolbar">
+				<a href="#" id="export-png" download="podkarpackie.png" >Zapis mapy do PNG</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+				<label for="track">
+						<a href="#" id="track">Moja lokalizacja</a>
+				</label>            &nbsp;&nbsp;&nbsp;
+				<button id="kontakt" class="kontakt">Kontakt</button>
+            &nbsp;&nbsp;
+
+  		    <div id="myModal2" class="modal2">
+            
+            <div class="modal-content2">
+              <span class="close2">&times;</span>     
+                <h1 class="formularz-naglowek">Jeśli znasz inne ciekawe miejsca, których nie uwzględniono na mapie<br>- napisz do mnie!</h1>
+                <form class="formularz-kontaktowy" action="http://formspree.io/nataliabajek92@gmail.com" method="POST">
+    			        <label class="label-kontakt" for="name">Imię:</label>
+    			        <input class="input-kontakt" type="text" name="name" /><br>
+                  <label class="label-kontakt" for="mail">E-mail:</label>
+    			        <input class="input-kontakt" type="email" name="_replyto" /><br>
+    			        <label class="label-kontakt" for="msg">Wiadomość:</label>
+    			        <textarea id="msg" name="message">Treść wiadomości</textarea><br>
+                  <input type="hidden" name="_next" value="http://localhost/geoportal/podziekowanie.html"/>
+    			        <button class="formularz-button" type="submit">Wyślij wiadomość</button>
+    			      </form>	                  	          	  
+            </div>
+          </div> 
+
+    		<button id="myBtn" class="myBtn">INFO</button>
+                  <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>              
+                <div class="describe_sekcja">
+                  <div class="describe_symbol"><img src="data/icon/logo.png" width="30px"></div>
+                  <div class="opis_describe" style="padding-left: 15px">Ustaw widoczność warstw i mapę bazową</div>
+                  <div class="clear-fix"></div>
+                </div>  
+
+                <div class="describe_sekcja">   
+                  <div class="describe_symbol"><img src="data/icon/lupa.png" width="30px"></div>
+                  <div class="opis_describe" style="padding-left: 15px; line-height: 30px">Wyszukaj adres na mapie</div>
+                  <div class="clear-fix"></div>
+                </div>  
+                <div class="describe_sekcja">        
+                  <div class="describe_symbol"><img src="data/icon/kultura2.png" width="30px"></div>
+                  <div class="opis_describe" style="padding-left: 15px">Kliknij na ikonę, aby pokazać informacje o wszystkich znajdujących się pod nią obiektach</div>
+                  <div class="clear-fix"></div>
+                </div>  
+                <div class="describe_sekcja">         
+                  <div class="describe_symbol"><img src="data/icon/kultura.png" width="30px"></div>
+                  <div class="opis_describe" style="padding-left: 15px">Przybliż widok mapy, a następnie kliknij na ikonę, aby pokazać szczegółowe dane o obiektach</div>
+                  <div class="clear-fix"></div>
+                </div> 
+                <div class="describe_sekcja">         
+                  <div class="describe_symbol"><img src="data/icon/krajobrazowe.png" width="30px"></div>
+                  <div class="opis_describe" style="padding-left: 15px">Kliknij w obszar, aby wyświetlić nazwę parku lub rezerwatu przyrodniczego</div>
+                  <div class="clear-fix"></div>
+                </div>  
+                <div class="describe_sekcja">         
+                  <div class="describe_symbol"></div>
+                  <div class="opis_describe">Dodaj własne dane wektorowe. Przenieś i upuść w oknie mapy pliki w formatach GPX, GeoJSON, IGC, KML, TopoJSON
+                  </div>
+                  <div class="clear-fix"></div>
+                </div>  
+              </p>
+            </div>
+
+          </div>
+		</div>
+
+		<div class="legenda">
+				<div class="legenda_tytul">Legenda</div>
+				<ul class="lista">
+						<li>
+								<div class="symbol">
+										<img src="data/icon/muzeum.png" width="35px"></div>
+								<div class="opis"> Muzea </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/zamek.png" width="35px"></div>
+								<div class="opis"> Zamki </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/kultura.png" width="35px"></div>
+								<div class="opis"> Kultura </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/park.png" width="35px"></div>
+								<div class="opis"> Parki </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/twierdza.png" width="35px">
+								</div>
+								<div class="opis"> Twierdza Przemyśl </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/bunkier.png" width="35px">
+								</div>
+								<div class="opis"> Schrony, bunkry </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/kosciol.png" width="35px">
+								</div>
+								<div class="opis"> Obiekty sakralne </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/cmentarz.png" width="35px">
+								</div>
+								<div class="opis"> Cmentarze </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/natura.png" width="35px">
+								</div>
+								<div class="opis"> Natura </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/uzdrowiska.png" width="35px">
+								</div>
+								<div class="opis"> Uzdrowiska </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/lina.png" width="35px">
+								</div>
+								<div class="opis"> Parki linowe </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/escape.png" width="35px">
+								</div>
+								<div class="opis"> Escape roomy </div>
+						</li>
+						<li>
+								<div class="symbol">
+										<img src="data/icon/inne.png" width="35px">
+								</div>
+								<div class="opis"> Inne </div>
+						</li>
+            <li class="poligony">
+              <div class="symbol">
+                <img src="data/icon/narodowe.png" width="35px"></div>
+              <div class="opis"> Parki Narodowe </div>
+            </li>
+            <li class="poligony">
+              <div class="symbol">
+                <img src="data/icon/krajobrazowe.png" width="35px"></div>
+              <div class="opis"> Parki Krajobrazowe </div>
+            </li>
+            <li class="poligony">
+              <div class="symbol">
+                <img src="data/icon/rezerwaty.png" width="35px"></div>
+              <div class="opis"> Rezerwaty </div>
+            </li>
+				</ul>
+		</div>		
+
+		<div id="popup" class="ol-popup">
+			<a href="#" id="popup-closer" class="ol-popup-closer"></a>
+			<div id="popup-content"></div>
+		</div>
+
+		<div id="popup2" class="ol-popup2">
+				<a href="#" id="popup-closer2" class="ol-popup-closer2"></a>
+				<div id="popup-content2"></div>
+		</div>
+
+		<div id="map" class="map">
+		</div>
+
+	<script src="ol3/ol3.js"></script>
+	<script src="scripts/jquery-3.1.1.min.js"></script>
+	<script src="ol3/ol3-layerswitcher.js"></script>
+  <script src="ol3/ol3-geocoder-debug.js"></script>
+  <script src="scripts/script.js"></script> 
+	
+
+
+</body>
+</html>
